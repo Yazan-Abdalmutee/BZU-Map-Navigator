@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private void addMarkersFromJson() {
         try {
-            InputStreamReader reader = new InputStreamReader(getAssets().open("data2.json"));
+            InputStreamReader reader = new InputStreamReader(getAssets().open("data.json"));
             Gson gson = new Gson();
             Type listType = new TypeToken<List<MarkerData>>() {}.getType();
             List<MarkerData> markers = gson.fromJson(reader, listType);
