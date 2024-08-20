@@ -1,0 +1,650 @@
+[
+{
+"color":"lightred",
+"icon":"camera",
+"category":"Photo",
+"location": [31.96142 , 35.18281],
+"title": "",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"lightred",
+"icon":"camera",
+"category":"Photo",
+"location": [31.95866 , 35.18167],
+"title": "",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"lightred",
+"icon":"camera",
+"category":"Photo",
+"location": [31.96038 , 35.1828],
+"title": "",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"lightred",
+"icon":"camera",
+"category":"Photo",
+"location": [31.95928, 35.18198],
+"title": "",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"lightred",
+"icon":"camera",
+"category":"Photo",
+"location": [31.95988 , 35.1821],
+"title": "",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"lightred",
+"icon":"camera",
+"category":"Photo",
+"location": [31.95997 , 35.18241],
+"title": "",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"lightred",
+"icon":"camera",
+"category":"Photo",
+"location": [31.96055 , 35.18304],
+"title": "",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"dollar-sign",
+"category":"Buildings",
+"location": [31.960203 , 35.182483],
+"title": "بنك فلسطين",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"star",
+"category":"Buildings",
+"location": [31.960712 , 35.181025],
+"title": "مدرج",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"futbol",
+"category":"Buildings",
+"location": [31.961449 , 35.181301],
+"title": "ملعب رياضي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"futbol",
+"category":"Buildings",
+"location": [31.961156 , 35.182117],
+"title": "ملعب رياضي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"basketball-ball",
+"category":"Buildings",
+"location": [31.960930 , 35.180934],
+"title": "ملعب رياضي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"basketball-ball",
+"category":"Buildings",
+"location": [31.959609 , 35.180854],
+"title": "ملعب رياضي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"basketball-ball",
+"category":"Buildings",
+"location": [31.960007 , 35.181051],
+"title": "ملعب رياضي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"basketball-ball",
+"category":"Buildings",
+"location": [31.960609 , 35.181333],
+"title": "ملعب رياضي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"water",
+"category":"Buildings",
+"location": [31.957258 , 35.185626],
+"title": "محطة معالجة الصرف الصحي ",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"bolt",
+"category":"Buildings",
+"location": [31.957835, 35.185281],
+"title": "محطة كهرباء فرعية",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"water",
+"category":"Buildings",
+"location": [31.960014 , 35.184097],
+"title": "خزان وآبار المياه",
+"counter": 0,
+"image": "reduced_1"
+},
+
+{
+"color":"orange",
+"icon":"bolt",
+"category":"Buildings",
+"location": [31.959874 , 35.183632],
+"title": "محطة توليد كهرباء",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"star",
+"category":"Buildings",
+"location": [31.960887 , 35.185753],
+"title": "إسكان رياض للطالبات",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"pills",
+"category":"Buildings",
+"location": [31.962603 , 35.182476],
+"title": "معهد صناعات الأدوية",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"book-open",
+"category":"Buildings",
+"location": [31.958805 , 35.182592],
+"title": "المكتبة الرئيسية",
+"counter": 0,
+"image": "reduced_1"
+},
+
+{
+"color":"orange",
+"icon":"star",
+"category":"Buildings",
+"location": [31.958712 , 35.183026],
+"title": "متحف الجامعة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"star",
+"category":"Buildings",
+"location": [31.963410 , 35.183647],
+"title": "متحف الجامعة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"orange",
+"icon":"ambulance",
+"category":"Buildings",
+"location": [31.958288 , 35.182005],
+"title": "عيادة الجامعة",
+"counter": 0,
+"image": "reduced_1"
+},
+
+{
+"color":"red",
+"icon":"coffee",
+"category":"Cafe",
+"location": [31.959207, 35.179873],
+"title": "كافتيريا العم أبو أحمد",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"red",
+"icon":"coffee",
+"category":"Cafe",
+"location": [31.959376 , 35.179928],
+"title": "كافتيريا الزعيم",
+"counter": 0,
+"image": "reduced_1"
+},
+
+
+{
+"color":"red",
+"icon":"utensils",
+"category":"Cafe",
+"location": [31.962114 , 35.182655],
+"title": "كافتيريا التمريض",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"red",
+"icon":"utensils",
+"category":"Cafe",
+"location": [31.958119 , 35.183295],
+"title": "كافتيريا التجارة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"red",
+"icon":"utensils",
+"category":"Cafe",
+"location": [31.958065 , 35.180939],
+"title": "كافتيريا العلوم",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"red",
+"icon":"utensils",
+"category":"Cafe",
+"location": [31.959628 , 35.181684],
+"title": "كافتيريا المركزية",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"red",
+"icon":"utensils",
+"category":"Cafe",
+"location": [31.960760 , 35.182497],
+"title": "كافتيريا الآداب",
+"counter": 0,
+"image": "reduced_1"
+},
+
+{
+"color":"cadetblue",
+"icon":"sign-in-alt",
+"category":"Enter",
+"location": [31.961879 , 35.184864],
+"title": "المدخل الشرقي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"cadetblue",
+"icon":"sign-in-alt",
+"category":"Enter",
+"location": [31.957188 , 35.185008],
+"title": "المدخل الجنوبي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"cadetblue",
+"icon":"sign-in-alt",
+"category":"Enter",
+"location": [31.958548 , 35.180229],
+"title": "المدخل الغربي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"green",
+"icon":"star-and-crescent",
+"category":"Mosques",
+"location": [31.961366 , 35.184790],
+"title": "الطابق 4 للطلاب\n الطابق الأرضي للطالبات",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"green",
+"icon":"star-and-crescent",
+"category":"Mosques",
+"location": [31.959513 , 35.180333],
+"title": "الطابق -1 للطلاب\n بالرفوف آخر الدرج للطالبات",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"green",
+"icon":"star-and-crescent",
+"category":"Mosques",
+"location": [31.958288 , 35.180733],
+"title": "الطابق -1 للطلاب\n الطابق -2 للطالبات",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"green",
+"icon":"star-and-crescent",
+"category":"Mosques",
+"location": [31.960844 ,35.182862],
+"title": "الطابق -1 للطلاب\n الطابق -1 للطالبات",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"green",
+"icon":"star-and-crescent",
+"category":"Mosques",
+"location": [31.960176 ,35.183128],
+"title": "الطابق الثاني للطلاب\n الطابق الرايع للطالبات",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkpurple",
+"icon":"print",
+"category":"Printer",
+"location": [31.958029 , 35.181356],
+"title": "مطبعة العلوم",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkpurple",
+"icon":"print",
+"category":"Printer",
+"location": [31.960939 , 35.182736],
+"title": "مطبعة الآداب",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkpurple",
+"icon":"print",
+"category":"Printer",
+"location": [31.958156 , 35.183146],
+"title": "مطبعة التجارة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkpurple",
+"icon":"print",
+"category":"Printer",
+"location": [31.959709 , 35.180640],
+"title": "مطبعة الهندسة",
+"counter": 0,
+"image": "reduced_1"
+},
+
+{
+"color":"darkred",
+"icon":"shopping-cart",
+"category":"Shops",
+"location": [31.960248 , 35.182310],
+"title": "سوبر ماركت الشني",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkred",
+"icon":"shopping-cart",
+"category":"Shops",
+"location": [31.960184 , 35.182503],
+"title": "البوك ستور",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.958333 , 35.180916],
+"title": "كلية العلوم",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.959446 , 35.180475],
+"title": "كلية الهندسة",
+"counter": 0,
+"image": "reduced_1"
+},
+
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.958747 , 35.181912],
+"title": "قاعة الشهيد كمال ناصر",
+"counter": 0,
+"image": "reduced_1"
+},
+
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.958272 , 35.183291],
+"title": "كلية التجارة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.958220 , 35.183718],
+"title": "ملحق التجارة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.958204 , 35.182562],
+"title": "مبنى الدراسات العليا",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.959240 , 35.182411],
+"title": "مبنى التسجيل",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.959061 , 35.181431],
+"title": "مبنى إدارة الجامعة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.959332 , 35.183198],
+"title": "مبنى رئاسة الجامعة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.959482 , 35.182315],
+"title": "معهد الحقوق",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.959696 , 35.181722],
+"title": "مبنى مجمع الطلبة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.960179 , 35.183093],
+"title": "مبنى الحقوق والإدارة العامة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.960595, 35.183693],
+"title": "كلية التربية",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.961028 , 35.184307],
+"title": "مبنى زعني القبة الزرقاء",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.961459 , 35.184680],
+"title": "كلية الآي تي",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.961144 , 35.183584],
+"title": "كلية التنمية",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.961593 , 35.183676],
+"title": "كلية الإعلام",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.961110,35.183124],
+"title": "مبنى دراسات المرأة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.962259,35.183922],
+"title": "مسرح نسيب عزيز شاهين",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.962209 , 35.182849],
+"title": "كلية التمريض",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.962230 , 35.181973],
+"title": "كلية الفنون",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.961633,35.182307],
+"title": "الكلية الجديدة",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.961282,35.181766],
+"title": "مبنى التربية الرياضية",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.960762,35.182738],
+"title": "كلية الآداب",
+"counter": 0,
+"image": "reduced_1"
+},
+{
+"color":"darkblue",
+"icon":"school",
+"category":"Department",
+"location": [31.960069,35.180859],
+"title": "مبنى مشاغل الهندسة",
+"counter": 0,
+"image": "reduced_1"
+}
+]

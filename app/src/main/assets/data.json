@@ -1,0 +1,30 @@
+[
+    {
+        "lat": 31.96026 ,
+        "lng":  35.18241,
+        "title": "Build 1",
+        "category": "Mosque",
+        "image": "reduced_71"
+    },
+    {
+        "lat": 31.9614,
+        "lng": 35.18475,
+        "title": "Build 2",
+        "category": "Department",
+        "image": "reduced_1"
+    },
+    {
+        "lat": 31.96294027538542,
+        "lng": 35.18344992604028,
+        "title": "Build 3",
+        "category": "Mosque",
+        "image": "reduced_71"
+    },
+    {
+        "lat": -34.01663,
+        "lng": 150.958403,
+        "title": "Build 4",
+        "category": "Mosque",
+        "image": "reduced_71.jpg"
+    }
+]

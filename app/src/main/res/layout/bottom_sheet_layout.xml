@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkBuild1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="كليات" />
+
+    <CheckBox
+        android:id="@+id/checkBuild2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="كافيتيريات" />
+
+    <CheckBox
+        android:id="@+id/checkBuild3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مباني مهمة  " />
+
+    <CheckBox
+        android:id="@+id/checkBuild4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="المصليات" />
+
+    <CheckBox
+        android:id="@+id/checkBuild5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مطابع" />
+
+    <CheckBox
+        android:id="@+id/checkBuild6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="محلات" />
+
+    <CheckBox
+        android:id="@+id/checkBuild7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="أماكن تصوير" />
+    <CheckBox
+        android:id="@+id/checkBuild8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مداخل الجامعة" />
+</LinearLayout>
