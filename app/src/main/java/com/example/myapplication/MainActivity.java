@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -61,6 +63,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private TextView coordinatesTextView;
     private Marker marker;
     private Marker postionMarker;
+    private Marker fromMarker;
+    private Marker toMarker;
     Map<String, String> locationMap = new HashMap<>();
     private Map<String, double[]> coordinates = new HashMap<>();
     private Map<String, List<String>> graph = new HashMap<>();
@@ -77,7 +81,29 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_main);
 
         coordinatesTextView = findViewById(R.id.coordinatesTextView);
+        TextView linkedIn = findViewById(R.id.linked);
+        linkedIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Your LinkedIn profile URL
+                String linkedInUrl = "https://www.linkedin.com/in/yazan-abdalmutee/";
+                // Create an Intent to open the LinkedIn profile
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(linkedInUrl));
+                startActivity(intent);
+            }
+        });
 
+        TextView linkedIn2 = findViewById(R.id.linked2);
+        linkedIn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Your LinkedIn profile URL
+                String linkedInUrl = "https://www.linkedin.com/in/taher-hasan-8059a8267/";
+                // Create an Intent to open the LinkedIn profile
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(linkedInUrl));
+                startActivity(intent);
+            }
+        });
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -258,7 +284,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         CheckBox checkMosques = bottomSheetView.findViewById(R.id.checkBuild4);
         CheckBox checkPrinter = bottomSheetView.findViewById(R.id.checkBuild5);
         CheckBox checkShops = bottomSheetView.findViewById(R.id.checkBuild6);
-        CheckBox checkPhoto = bottomSheetView.findViewById(R.id.checkBuild7);
         CheckBox checkEnter = bottomSheetView.findViewById(R.id.checkBuild8);
 
 // Initialize checkbox states based on name visibility
@@ -269,7 +294,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         checkMosques.setChecked(false);
         checkPrinter.setChecked(false);
         checkShops.setChecked(false);
-        checkPhoto.setChecked(false);
         checkEnter.setChecked(false);
         checkDepartment.setChecked(markersVisibility.getOrDefault("Department", false));
         checkCafe.setChecked(markersVisibility.getOrDefault("Cafe", false));
@@ -277,7 +301,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         checkMosques.setChecked(markersVisibility.getOrDefault("Mosques", false));
         checkPrinter.setChecked(markersVisibility.getOrDefault("Printer", false));
         checkShops.setChecked(markersVisibility.getOrDefault("Shops", false));
-        checkPhoto.setChecked(markersVisibility.getOrDefault("Photo", false));
         checkEnter.setChecked(markersVisibility.getOrDefault("Enter", false));
 
 
@@ -288,7 +311,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         checkMosques.setOnCheckedChangeListener((buttonView, isChecked) -> updateMarkerVisibility("Mosques", isChecked));
         checkPrinter.setOnCheckedChangeListener((buttonView, isChecked) -> updateMarkerVisibility("Printer", isChecked));
         checkShops.setOnCheckedChangeListener((buttonView, isChecked) -> updateMarkerVisibility("Shops", isChecked));
-        checkPhoto.setOnCheckedChangeListener((buttonView, isChecked) -> updateMarkerVisibility("Photo", isChecked));
         checkEnter.setOnCheckedChangeListener((buttonView, isChecked) -> updateMarkerVisibility("Enter", isChecked));
 
 
@@ -503,7 +525,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // Set up the clear button
         dialog.findViewById(R.id.button_clear).setOnClickListener(v -> {
+            clearFromToMarkers();
+
             clearPaths();  // Clear all paths drawn on the map
+
         });
 
         dialog.show();
@@ -513,8 +538,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
         private void drawPathBetweenMarkers(String from, String to) {
+            clearFromToMarkers();
 
-
+            fromMarker = addMarkerAtLocation(from, "Start Point");
+            toMarker = addMarkerAtLocation(to, "End Point");
             List<String> path = findShortestPath(from, to);
             drawShortestPath(path);
 //            calculateDistance(from,to);
@@ -627,11 +654,33 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         PolylineOptions polylineOptions = new PolylineOptions()
                 .add(start)
                 .add(end)
-                .color(Color.GREEN)  // Set the color to green
+                .color(Color.RED)  // Set the color to green
                 .width(10);  // Set the width of the polyline
 
         Polyline polyline = mMap.addPolyline(polylineOptions);
         polylineList.add(polyline);  // Add the polyline to the list
+    }
+    private Marker addMarkerAtLocation(String markerName, String title) {
+        double[] coords = coordinates.get(markerName);
+        if (coords != null) {
+            LatLng position = new LatLng(coords[0], coords[1]);
+            MarkerOptions markerOptions = new MarkerOptions()
+                    .position(position)
+                    .title(title)  // Set custom title
+                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)); // Customize marker color if needed
+            return mMap.addMarker(markerOptions);
+        }
+        return null;  // Return null if no marker is added
+    }
+    private void clearFromToMarkers() {
+        if (fromMarker != null) {
+            fromMarker.remove();
+            fromMarker = null;
+        }
+        if (toMarker != null) {
+            toMarker.remove();
+            toMarker = null;
+        }
     }
 
 
@@ -659,6 +708,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 //            mMap.addMarker(markerOptions);
 //        }
     }
+
     private void initialiseValues()
     {
         coordinates.put("D1", new double[]{31.958499, 35.183705});
@@ -758,8 +808,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         coordinates.put("C41", new double[]{31.961425,35.185038});
 
 
+        coordinates.put("C42", new double[]{31.958716,35.180225});
 
 
+        coordinates.put("IC1", new double[]{31.958680,35.180130});
+        coordinates.put("IC2", new double[]{31.958767,35.180103});
 
 
 
@@ -878,6 +931,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         addEdge("IE", "C41");
         addEdge("C40", "C41");
 
+        addEdge("C34", "C42");
+        addEdge("C42", "C35");
+        addEdge("C42", "IC1");
+        addEdge("C42", "IC2");
 
 
 
@@ -898,8 +955,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         locationMap.put("مبنى رئاسة الجامعة", "D14");
         locationMap.put("مسرح نسيب عزيز شاهين", "D32");
         locationMap.put("قاعة الشهيد كمال ناصر", "I9");
-        locationMap.put("كافتيريا العم أبو أحمد", "I12A");
-        locationMap.put("كافتيريا الزعيم", "I12B");
+        locationMap.put("كافتيريا العم أبو أحمد", "IC1");
+        locationMap.put("كافتيريا الزعيم", "IC2");
         locationMap.put("كافتيريا التمريض", "D33");
         locationMap.put("كافتيريا التجارة", "I2");
         locationMap.put("كافتيريا العلوم", "D5");
@@ -910,10 +967,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         locationMap.put("المدخل الغربي", "IW");
         locationMap.put("سوبر ماركت الشني", "D19");
         locationMap.put("البوك ستور", "I19");
-        locationMap.put("مصلى الهندسة", "D11");
         locationMap.put("مصلى تكنلوجيا المعلومات", "I29");
-        locationMap.put("مصلى الحقوق", "D18");
-        locationMap.put("مصلى الاداب", "A23");
+
         locationMap.put("كلية العلوم", "D5");
         locationMap.put("كلية الهندسة", "D11");
         locationMap.put("كلية التجارة", "I2");
