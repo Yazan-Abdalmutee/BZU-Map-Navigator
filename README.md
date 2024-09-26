@@ -21,7 +21,6 @@ The BZU Map Navigator is an Android application designed to assist users in navi
 - **Programming Language:** Java
 - **Development Environment:** Android Studio
 - **API:** Google Maps API for map integration
-- **Data Structure:** Uses HashMap for storing location data
 
 ## Installation
 1. Clone the repository:
