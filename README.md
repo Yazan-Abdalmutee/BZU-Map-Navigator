@@ -23,7 +23,7 @@ The BZU Map Navigator is an Android application designed to assist users in navi
 2. Open the project in Android Studio.
 
 3. Locate the AndroidManifest.xml file and find the line that specifies the API key.
-4. Replace YOUR_API_KEY_HERE with your actual API key in the following format:
+4. Replace **YOUR_API_KEY_HERE** with your actual API key in the following format:
 ```bash
 <meta-data
     android:name="com.google.android.geo.API_KEY"
