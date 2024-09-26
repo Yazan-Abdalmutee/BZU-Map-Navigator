@@ -10,6 +10,7 @@ The BZU Map Navigator is an Android application designed to assist users in navi
   <img src="https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image5.jfif" alt="Image 5" width="150"/>
   <img src="https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image6.jfif" alt="Image 6" width="150"/>
 </p>
+
 ## Features
 - **Current Location Display:** Shows the user's current location on the map.
 - **Shortest Path Calculation:** Users can select two department locations, and the app calculates and displays the shortest path between them.
