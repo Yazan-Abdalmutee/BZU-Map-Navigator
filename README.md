@@ -28,7 +28,7 @@ The BZU Map Navigator is an Android application designed to assist users in navi
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/tree/master
+   git clone https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator
 2. Open the project in Android Studio.
 
 3. Locate the AndroidManifest.xml file and find the line that specifies the API key.
