@@ -2,13 +2,14 @@
 
 ## Overview
 The BZU Map Navigator is an Android application designed to assist users in navigating Birzeit University (BZU) campus. The app displays the user's current location and allows them to select two department locations to find the shortest path between them. Additionally, the app categorizes various locations on campus, such as mosques, cafeterias, and departments, making it easy for users to identify points of interest.
-![Image 1](https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image1.jfif)
-![Image 2](https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image2.jfif)
-![Image 3](https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image3.jfif)
-![Image 4](https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image4.jfif)
-![Image 5](https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image5.jfif)
-![Image 6](https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image6.jfif)
-
+<p align="center">
+  <img src="https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image1.jfif" alt="Image 1" width="150"/>
+  <img src="https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image2.jfif" alt="Image 2" width="150"/>
+  <img src="https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image3.jfif" alt="Image 3" width="150"/>
+  <img src="https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image4.jfif" alt="Image 4" width="150"/>
+  <img src="https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image5.jfif" alt="Image 5" width="150"/>
+  <img src="https://github.com/Yazan-Abdalmutee/BZU-Map-Navigator/blob/master/image6.jfif" alt="Image 6" width="150"/>
+</p>
 ## Features
 - **Current Location Display:** Shows the user's current location on the map.
 - **Shortest Path Calculation:** Users can select two department locations, and the app calculates and displays the shortest path between them.
