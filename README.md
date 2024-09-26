@@ -2,6 +2,12 @@
 
 ## Overview
 The BZU Map Navigator is an Android application designed to assist users in navigating Birzeit University (BZU) campus. The app displays the user's current location and allows them to select two department locations to find the shortest path between them. Additionally, the app categorizes various locations on campus, such as mosques, cafeterias, and departments, making it easy for users to identify points of interest.
+![Image 1](path/to/image1.png)
+![Image 2](path/to/image2.png)
+![Image 3](path/to/image3.png)
+![Image 4](path/to/image4.png)
+![Image 5](path/to/image5.png)
+![Image 6](path/to/image6.png)
 
 ## Features
 - **Current Location Display:** Shows the user's current location on the map.
